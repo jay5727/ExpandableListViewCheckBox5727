@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/show_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/dummy_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:text="Jay5727"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/child_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:theme="@style/checkBoxStyle" />
+
+    <!--<TextView
+        android:id="@+id/tvZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dummy_txt_view"
+        android:layout_alignStart="@+id/dummy_txt_view"
+        android:layout_below="@+id/dummy_txt_view"
+        android:text="TextView"
+         />
+
+    <TextView
+        android:id="@+id/tvDesignation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dummy_txt_view"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tvZone"
+        android:text="TextView"
+        />-->
+
+</RelativeLayout>
